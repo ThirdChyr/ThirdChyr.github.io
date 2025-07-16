@@ -1,0 +1,111 @@
+ body {
+        background-color: black;
+        color: #f0f0f0;
+        font-family: Arial, sans-serif;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #ccc;
+        text-decoration: underline;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .profile-section {
+        width: 90%;
+        height: auto;
+        background-color: #1c1c1d;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .profile-name {
+        color: white;
+    }
+    
+    .content-section {
+        background-color: #1c1c1d;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .flex-row {
+        width: auto;
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+    }
+    
+    .flex-row.with-margin {
+        margin-top: 20px;
+    }
+    
+    .column {
+        width: 50%;
+    }
+    
+    .column.with-right-margin {
+        margin-right: 25px;
+    }
+    
+    .column.with-left-margin {
+        margin-left: 25px;
+    }
+    
+    .intro-text {
+        text-align: justify;
+        margin-right: 25px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+    
+    .education-list {
+        text-align: left;
+    }
+    
+    .hobby-list {
+        text-align: left;
+    }
+    
+    .skills-list {
+        text-align: left;
+    }
+    
+    .skills-list li {
+        margin-bottom: 10px;
+    }
+    
+    .contact-section {
+        width: 50%;
+        text-align: left;
+    }
+    
+    .contact-title {
+        text-align: center;
+    }
+    
+    .contact-item {
+        margin-left: 10px;
+        margin-bottom: -10px;
+    }
